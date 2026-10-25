@@ -1,0 +1,32 @@
+# Python cache files
+
+**pycache**/
+*.py[cod]
+
+# Python virtual environment
+
+.venv/
+venv/
+
+# PyCharm IDE files
+
+.idea/
+
+# Environment variables and secrets
+
+.env
+.env.*
+
+# Ignore environment templates with secrets, if any
+
+!.env.example
+
+# Test and coverage files
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+
+*.log
